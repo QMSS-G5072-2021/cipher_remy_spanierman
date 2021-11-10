@@ -1,6 +1,6 @@
 def cipher(text, shift, encrypt=True):
     
-    '''
+    """
     Description: The cipher uses inputs of string data and shifts the letters within the alphabet by the 
     designated shift input. Thus it encrypts strings so they no longer appear in their original form. 
     
@@ -16,7 +16,7 @@ def cipher(text, shift, encrypt=True):
         Output: 'Mjqqt'
         Input: cipher('Hello',5,encrypt=False)
         Output: 'Hello'
-    '''    
+    """    
     
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
