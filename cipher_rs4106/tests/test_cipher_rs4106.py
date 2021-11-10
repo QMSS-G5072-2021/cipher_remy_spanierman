@@ -1,5 +1,5 @@
+Import py.test
 from cipher_rs4106 import cipher_rs4106
-Import pytest
 
 def test_cipher():
     example1 = 'alphabet'
